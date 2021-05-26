@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理页面</title>
+    <link rel="stylesheet" href="./stylesheets/lol.css">
+    <link rel="stylesheet" href="/stylesheets/begin/common.css" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/begin/home.css"/>
+    <script src="/javascripts/jquery.min.js"></script>
+</head>
+<body>
+    <div class="head fix">
+        <div class="t1 fix">
+            <div class="tl">后台管理页面</div>
+            <div class="tr">
+                <ul class="ur">
+                    <li><a href="/begin">用户管理</a></li>
+                    <li><a href="/begin2">日志管理</a></li>
+                    <li><a href="archive.html">用户详情</a></li>
+                    <li><a href="tags.html">评论管理</a></li>
+                    <li><a href="works.html">WORKS</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tt">
+            <div class="t2">用户名单管理</div>
+        </div>
+    </div>
+<div>
+    <div class="z">
+        用户名:
+        <input type="text" id="queryInput" class="queryInput"> 
+        <button class="departName" id="departName">查询</button>     
+    </div>
+    <div class="pa">
+        <table border="1" class="biao" id="biao">
+            <tr style="height: 50px">
+                <th>用户名</th>
+                <th>密码</th>
+                <th>注册时间</th>
+                <th>操作</th>
+            </tr>
+            <tr  id="biao">
+                <form  method="POST" action="/begin">
+                    <% data.forEach((o,i)=>{%>
+                        <tr>
+                                
+                                <td><%=o.regname%></td>
+                                <td><%=o.regpass%></td>
+                                <td><%=o.create_time%></td>
+                                
+                                <td>
+                                <button type="button" class="c3  delete" id="delete" data-id=<%=o.id %> >删除</button>
+                                </td>
+                        </tr>
+                        
+                             <% }) %>
+                
+                </form>
+            </tr>
+        </table>
+    </div>
+  </div>
+    
+    
+    <script src="/javascripts/test.js"></script>
+</body>
+
+</html>
