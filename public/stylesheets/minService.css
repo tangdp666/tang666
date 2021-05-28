@@ -1,0 +1,419 @@
+body {
+	background: #e4e4e4 url(../images/index/link-bg-x.jpg) repeat-x;
+}
+/*header选中*/
+#navlistT {
+	background: #ddd;
+}
+.SMain {
+	padding-top: 55px;
+	background: url(../images/index/城市.jpeg) no-repeat center top;
+}
+.SWrap {
+	width: 950px;
+	margin: 0 auto;
+}
+.STop {
+	height: 64px;
+	padding: 22px 0 25px 10px;
+}
+.STop h2 {
+	width: 211px;
+	padding-top: 64px;
+	height: 0;
+	overflow: hidden;
+	
+}
+/*SContainer部分开始*/
+.SContainer {
+	border-radius: 9px;
+	padding: 0 50px 0 40px;
+	background: #fff url(../images/index/min-link-bg.jpg) no-repeat center top;
+	box-shadow: 0 0 9px #cecece;
+}
+.SService {
+	padding: 54px 0 0;
+	background: url(../images/index/line.png) no-repeat center bottom;
+}
+.SServiceL {
+	width: 530px;
+	float: left;
+}
+.SServiceLImgs {
+	width: 178px;
+	height: 70px;
+	margin-top: 6px;
+	background: url(../images/index/service_logo.png) no-repeat;
+}
+.SServiceLText {
+	width: 480px;
+	margin-top: 11px;
+	font: 14px/30px "微软雅黑";
+	color: #999;
+}
+.clickService {
+	font: 20px/46px "微软雅黑";
+	padding: 69px 160px 0 130px;
+}
+.ckickSoonS {
+	float: left;
+	padding: 0 27px;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 0 2px #ededed;
+	background: url(../images/index/click-soon.png) no-repeat 0 0px;
+}
+.ckickSoonS:hover {
+	background: url(../images/index/click-soon.png) no-repeat 0 -56px;
+}
+.clickDetails {
+	float: left;
+	width: 240px;
+	font: 12px/36px "微软雅黑";
+	text-align: center;
+	color: #999;
+	padding-bottom: 87px;
+}
+.SServiceR {
+	float: left;
+	width: 330px;
+}
+.SServiceR li {
+	margin-bottom: 19px;
+}
+.SServiceR h4 {
+	height: 34px;
+	font: bold 18px/34px "微软雅黑";
+}
+.SServiceRDiv p {
+	font: 12px/22px "微软雅黑";
+	color: #999;
+}
+.SServiceRImgs {
+	float: left;
+	width: 47px;
+	height: 55px;
+	padding-right: 18px;
+	background: url(../images/index/top_logosie6.png) no-repeat 0 6px;
+}
+.appbuild .SServiceRImgs {
+	background-position: 0 -82px;
+}
+.data .SServiceRImgs {
+	background-position: 0 -167px;
+}
+.ads .SServiceRImgs {
+	background-position: 0 -256px;
+}
+/*ServiceProduct 开始*/
+.ServiceProduct {
+	padding-bottom: 24px;
+	background: url(../images/index/line.png) no-repeat center bottom;
+}
+.SWrap h3 {
+	padding-top: 42px;
+	font: bold 26px/1 "微软雅黑";
+}
+.productDetails {
+	margin-top: 35px;
+}
+.productDetails li {
+	float: left;
+	width: 410px;
+	margin-left: 20px;
+}
+.productDetailsImgs {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-right: 12px;
+	background: url(../images/index/pd_icons.gif) no-repeat -158px 0;
+}
+.fans .productDetailsImgs:hover {
+	background-position: 0 0;
+}
+.light .productDetailsImgs {
+	background-position: -158px -64px;
+}
+.light .productDetailsImgs:hover {
+	background-position: 0 -64px;
+}
+.pay .productDetailsImgs {
+	background-position: -158px -127px;
+}
+.pay .productDetailsImgs:hover {
+	background-position: 0 -127px;
+}
+.businessAPI .productDetailsImgs {
+	background-position: -158px -191px;
+}
+.businessAPI .productDetailsImgs:hover {
+	background-position: 0 -191px;
+}
+.center .productDetailsImgs {
+	background-position: -158px -256px;
+}
+.center .productDetailsImgs:hover {
+	background-position: 0 -256px;
+}
+.productDetails div {
+	float: left;
+	width: 294px;
+}
+.contentTitle {
+	height: 18px;
+	font: bold 14px/18px "微软雅黑";
+	padding-bottom: 9px;
+	font-size: 24px;
+}
+.contentTitle a {
+	color: #eb7350;
+}
+.contentText {
+	font: 12px/20px "微软雅黑";
+	color: rgb(5, 83, 83);
+	padding-bottom: 11px;
+	font-size: 17px;
+}
+.productDetailsNav {
+	font: 12px/1 "微软雅黑";
+	padding-bottom: 35px;
+}
+.productDetailsNav a {
+	float: left;
+	color: #666;
+}
+.productDetailsNav span {
+	float: left;
+	margin: 0 10px;
+	color: #666;
+}
+/*优秀合作伙伴 collaborator */
+.collaborator {
+	background: url(../images/index/line.png) no-repeat center bottom;
+}
+.collaboratorL {
+	float: left;
+	width: 498px;
+	margin-right: 27px;
+}
+.collaboratorL h3 {
+	float: left;
+}
+.excellentPartner {
+	float: right;
+	font: 14px/1 "微软雅黑"; 
+	padding-top: 54px;
+}
+.excellentPartner a {
+	color: #333;
+}
+.collaboratorLText {
+	width: 490px;
+	font: 14px/28px "微软雅黑";
+	margin-top: 21px;
+	color: #999;
+}
+.join {
+	width: 260px;
+	font: 20px/45px "微软雅黑";
+	padding: 40px 118px 88px 120px;
+}
+.join a {
+	float: left;
+	padding: 0 27px;
+	border-radius: 5px;
+	background: url(../images/index/click-soon.png) repeat-x 0 -108px;
+	color: #fff;
+}
+.join a:hover {
+	background-position: 0 -160px;
+}
+.collaboratorR {
+	float: left;
+	width: 335px;
+	padding: 68px 0 0;
+}
+.collaboratorR h4 {
+	height: 22px;
+	font: bold 18px/22px "微软雅黑";
+	padding-bottom: 17px;
+}
+.collaboratorRList li {
+	height: 32px;
+	margin-bottom: 18px;
+}
+.collaboratorRList .collaboratorRImgs {
+	float: left;
+	width: 29px;
+	height: 29px;
+	margin-right: 8px;
+	background: url(../images/index/rights_logos.png) no-repeat 0 0;
+}
+.Interface .collaboratorRImgs {
+	background-position: 0 -50px;
+}
+.Extension .collaboratorRImgs {
+	background-position: 0 -100px;
+}
+.activity .collaboratorRImgs {
+	background-position: 0 -150px;
+}
+.collaboratorRText {
+	float: left;
+	height: 32px;
+	font: 14px/32px "微软雅黑";
+}
+/*successCase 成功案例*/
+.successCaseList {
+	margin-top: 30px;
+	padding: 0 0 0 40px;
+	margin-right: -26px;
+}
+.successCaseList li {
+	position: relative;
+	float: left;
+	width: 82px;
+	padding-right: 59px;
+}
+.successCaseList a {
+	color: #000;
+}
+.successCaseImgs,
+.successCaseMask,
+.successCaseName {
+	display: block;
+}
+.successCaseName {
+	width: 82px;
+	margin-top: 6px;
+	font: bold 14px/28px "微软雅黑";
+	text-align: center;
+}
+.successCaseImgs {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #bfbfbf;
+	border-radius: 18px;
+	background: url(../images/index/service-ico.jpg) no-repeat 0 0;
+	box-shadow: 0 1px 1px #9f9f9f;
+}
+.weimaiCase .successCaseImgs {
+	background-position: 0 -80px; 
+}
+.weizhongCase .successCaseImgs {
+	background-position: 0 -160px; 
+}
+.lingfengCase .successCaseImgs {
+	background-position: 0 -320px; 
+}
+.shiqukejiCase .successCaseImgs {
+	background-position: 0 -240px; 
+}
+.shangbaoCase .successCaseImgs {
+	background-position: 0 -400px; 
+}
+.successCaseMask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.successCaseList li:hover .successCaseMask{
+	opacity: .1;
+	filter: alpha(opacity=10);
+}
+.caseIco {
+	position:relative;
+	top: 0;
+	left: 32px;
+	width: 18px;
+	height: 9px;
+	background: url(../images/index/arrow.png) no-repeat;
+	display: none;
+}
+.successCaseList li:hover .caseIco {
+	display: block;
+}
+.successCaseListDiv {
+	width: 790px;
+	padding: 4px 0 20px 0;
+	margin-bottom: 96px;
+	border-radius: 2px;
+	background: #f2f2f5;
+	display: none;
+}
+/*为成功案例 的DIV做了固定定位*/
+.kongmingCase .successCaseListDiv {
+	display: none;
+}
+.weimaiCase .successCaseListDiv {
+	position: relative;
+	width: 445px;
+}
+.weizhongCase .successCaseListDiv {
+	position: relative;
+	width: 564px;
+	left: -59px;
+}
+.lingfengCase .successCaseListDiv {
+	position: relative;
+	width: 860px;
+	left: -503px;
+}
+.shiqukejiCase .successCaseListDiv {
+	position: relative;
+	width: 798px;
+	left: -578px;
+}
+.shangbaoCase .successCaseListDiv {
+	position: relative;
+	width: 524px;
+	left: -450px;
+}
+.successCaseList .kongmingCase:hover .successCaseListDiv{
+	display: block;
+}
+.successCaseList .weimaiCase:hover .successCaseListDiv{
+	display: block;
+}
+.successCaseList .weizhongCase:hover .successCaseListDiv{
+	display: block;
+}
+.successCaseList .lingfengCase:hover .successCaseListDiv{
+	display: block;
+}
+.successCaseList .shiqukejiCase:hover .successCaseListDiv{
+	display: block;
+}
+.successCaseList .shangbaoCase:hover .successCaseListDiv{
+	display: block;
+}
+.successCaseListDiv .successCaseText {
+	font: 12px/36px "微软雅黑";
+	padding: 4px 0 0 20px;
+	color: #999;
+}
+.successCaseListNav p {
+	float: left;
+	background: url(../images/index/service-nav.png) no-repeat left 5px;
+}
+.successCaseListDiv .successCaseListNavP {
+	background:none;
+}
+.successCaseListNav span {
+	display: inline-block;
+	font: 12px/14px "微软雅黑";
+	padding: 0 20px;
+	color: #000;
+}
+.successCaseListNav strong {
+	display: block;
+	font: 18px/1 "微软雅黑";
+	margin: 10px 20px 0;
+	color: #eb7350;
+}

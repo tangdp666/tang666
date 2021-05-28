@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>后台管理页面</title>
+		<title></title>
 		<link rel="stylesheet" href="./stylesheets/lol.css">
 		<link rel="stylesheet" href="/stylesheets/begin/common.css" />
-		<link rel="stylesheet" type="text/css" href="/stylesheets/begin/about.css"/>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/begin/tags.css"/>
 		<script src="/javascripts/jquery.min.js"></script>
 	</head>
 	<body>
@@ -24,27 +24,22 @@
 			</div>
 			
 			<div class="tt">
-				<div class="t2">日志内容管理</div>
-				
-			</div>
+				<div class="t2">用户评论管理</div>
 			
+			</div>
 		</div>
 		<div>
 			<div class="z">
-				作者：
+				用户名:
 				<input type="text" id="queryInput" class="queryInput"> 
 				<button class="departName" id="departName">查询</button>     
 			</div>
-			
-			
 			<div class="pa">
-				
 				<table border="1" class="biao" id="biao">
 					<tr style="height: 50px">
-						<th>作者</th>
-						<th>文本内容</th>
-						<th>创作时间</th>
-						<th>评论</th>
+						<th>用户名</th>
+						<th>密码</th>
+						<th>注册时间</th>
 						<th>操作</th>
 					</tr>
 					<tr  id="biao">
@@ -52,13 +47,12 @@
 							<% data.forEach((o,i)=>{%>
 								<tr>
 										
-										<td><%=o.writer%></td>
-										<td><%=o.txt%></td>
+										<td><%=o.regname%></td>
+										<td><%=o.regpass%></td>
 										<td><%=o.create_time%></td>
-										<td><%=o.comment%></td>
 										
 										<td>
-										<button type="button" class="c3  update" id="update" data-id=<%=o.id %> >修改</button>
+										<button type="button" class="c3  delete" id="delete" data-id=<%=o.id %> >删除</button>
 										</td>
 								</tr>
 								
@@ -69,6 +63,6 @@
 				</table>
 			</div>
 		  </div>
-		  <script src="/javascripts/test.js"></script>
+		
 	</body>
 </html>

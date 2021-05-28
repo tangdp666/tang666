@@ -1,0 +1,227 @@
+body {
+	background: #e4e4e4 url(../images/index/support-bg-x.jpg) repeat-x;
+}
+/*header选中*/
+#navListDoc {
+	background: #ddd;
+}
+.DMain {
+	padding-top: 55px;
+	background: url(../images/index/城市.jpeg) no-repeat center top;
+}
+.DWrap {
+	width: 950px;
+	margin: 0 auto;
+}
+.DTop {
+	height: 64px;
+	padding: 10px 0 6px 8px;
+}
+.DTop h2 {
+	width: 160px;
+	padding-top: 64px;
+	height: 0;
+	overflow: hidden;
+	
+}
+/*DContainer部分开始*/
+.DContainer {
+	border-radius: 9px;
+	background: #f7f7f7;
+	box-shadow: 0 0 2px #999;
+}
+.DContainerL {
+	float: left;
+	width: 160px;
+	padding: 0 20px 142px;
+}
+.search {
+	padding: 36px 0 3px;
+}
+input {
+	float: left;
+	width: 118px;
+	height: 18px;
+	padding: 2px 5px 3px;
+	border: 1px solid #c2c0c0;
+	background: #fff;
+}
+.searchIco {
+	float: left;
+	width: 29px;
+	height: 25px;
+	background: url(../images/index/search.png) no-repeat;
+}
+/*左边列表开始*/
+.column li {
+	padding: 16px 0 1px;
+}
+.column a {
+	color: #252525;
+}
+.column li ul {
+	display: none;
+}
+.columnImgs {
+	float: left;
+	width: 20px;
+	height: 17px;
+	margin-right: 4px;
+	background: url(../images/index/docment-icons.png) no-repeat 0 -60px;
+}
+.columnName {
+	float: left;
+	margin-right: 9px;
+	font: 14px "微软雅黑";
+}
+.columnIco {
+	float: left;
+	margin-top: 9px;
+	width: 8px;
+	height: 4px;
+	background: url(../images/index/small_ui.png) no-repeat -18px -35px;
+}
+.column li:hover .columnIco{
+	background-position: 0 -35px;
+}
+.homePage .columnImgs,
+.notice .columnImgs,
+.contactUS .columnImgs {
+	background-position: 0 0;
+}
+.download .columnImgs {
+	background-position: 0 -80px;
+}
+.column .problem {
+	padding-bottom: 18px;
+	border-bottom: 1px solid #c8c8c8;
+}
+/*右边列表开始*/
+.DContainerR {
+	height: 100%;
+	float: left;
+	width: 750px;
+	border-top-right-radius: 9px;
+	background: #fff url(../images/index/docment-zhutitopbg.png) repeat-x center top;
+}
+.choose span {
+	float: right;
+	font: 12px/40px Arial,"微软雅黑";
+	color: #999;
+}
+.choose .space {
+	color: #000;
+	margin: 0 3px 0 5px;
+	font: 12px/36px "微软雅黑";
+}
+.choose em {
+	float: right;
+	font: bold 12px/40px Arial,"微软雅黑";
+	color: #333;
+}
+.choose a {
+	float: right;
+	margin-right: 11px;
+	font: bold 12px/40px Arial,"微软雅黑";
+	color:#3c7cb3;
+}
+/*homePageList开始*/
+.homePageList {
+	padding: 20px 21px 20px 40px;
+	background: url(../images/index/line.png) no-repeat center bottom;
+}
+.homePageList li {
+	padding-bottom: 15px;
+}
+.webConnectImgs {
+	float: left;
+	width: 72px;
+	height: 74px;
+	margin-right: 14px;
+	background: url(../images/index/doc_pic.png) no-repeat 0 0;
+}
+.webConnectdetails {
+	float: left;
+	width: 602px;
+}
+.webApp .webConnectImgs {
+	background-position: 0 -76px;
+}
+.mobileApp .webConnectImgs {
+	background-position: 0 -173px;
+}
+.homePageClick {
+	height: 26px;
+	font: 20px/1 "微软雅黑";
+}
+.homePageClick a {
+	color: #3c7cb3;
+}
+.homePageText {
+	width: 576px;
+	font: 12px/20px Arial, "微软雅黑";
+	color: #333;
+}
+/*notification开始*/
+.notification {
+	padding: 41px 21px 128px 40px;
+	margin-right: -32px;
+}
+.notification li {
+	float: left;
+	width: 328px;
+	padding-bottom: 31px;
+	margin-right: 32px;
+}
+.notificationIMgs {
+	float: left;
+	width: 27px;
+	height: 20px;
+	margin-right: 3px;
+	background: url(../images/index/doc_pic.png) no-repeat 0 -268px;
+}
+.OAuth .notificationIMgs {
+	background-position: 0 -296px;
+}
+.APIDocment .notificationIMgs {
+	background-position: 0 -324px;
+}
+.SDKDownload .notificationIMgs {
+	background-position: 0 -350px;
+}
+.Weibo-js .notificationIMgs {
+	background-position: 0 -376px;
+}
+.CommonProblems .notificationIMgs {
+	background-position: 0 -402px;
+}
+.notificationClick {
+	float: left;
+	height: 20px;
+	padding-bottom: 8px;
+	font: bold 14px/1 Arial,"微软雅黑";
+	color: #3c7cb3
+}
+.notificationText {
+	width: 308px;
+	font: 12px/20px "微软雅黑";
+	color: #333;
+}
+.APIDocmentClick {
+	color: #3c7cb3;
+}
+.but2{
+	margin-left: 620px;
+    color: red;
+
+}
+.but3{
+	background-color: #ff7600;
+    height: 33px;
+    width: 74px;
+    font-size: 21px;
+    color: #0e1166;
+    border-radius: 22px;
+    margin-left: 574px;
+
+}

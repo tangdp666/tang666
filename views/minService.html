@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<script type="text/javascript" src="/javascripts/html5shiv.min.js"></script>
+<link rel="stylesheet" href="/stylesheets/header.css">
+<link rel="stylesheet" href="/stylesheets/minService.css">
+</head>
+<body>
+	<header class="header">
+		<div class="headerDiv clearFix">
+			<h1>
+				<a href="/index1" class="logo"><img class="loge66" src="../images/index/柠檬精.jpg" alt="logo"></a>
+			</h1>
+			<ul class="nav">
+				<li class="navListNormal">
+					<a href="/index1" class="navA">首页</a>
+				</li>
+				<!-- 页面四 -->
+				<li class="navListNormal">
+					<a href="/minLink" class="navA">发布</a>
+				</li>
+				<!-- 页面五 -->
+				<li class="navListNormal">
+					<a href="/docment" class="navA">我的博客</a>
+				</li>
+				<!-- 页面六 -->
+				<li class="navListNormal">
+					<a href="/minService" class="navA">我的</a>
+				</li>
+				
+			</ul>
+			
+			<p class="login">
+				<a >登录</a>
+			</p>
+		</div>
+	</header>
+<main class="SMain">
+	<div class="SWrap">
+		<div class="STop">
+			<h2>我的信息</h2>
+		</div>
+		<div class="SContainer">
+			<div class="SService clearFix">
+				<p class="join clearFix" style="margin-left: 215px;margin-top: -63px;">
+					<a href="#">添加个人信息</a>
+				</p>
+				
+			</div>
+			<div class="ServiceProduct">
+				<h3>我的个人信息</h3>
+				<ul class="productDetails clearFix">
+					<% for(var o of data){
+						%>
+					<li class="fans">
+						<p class="productDetailsImgs"></p>
+						<div class="fansContent">
+							<p class="contentTitle">
+								<a >账号</a>
+							</p>
+							<p class="contentText"><%=o.regname%></p>
+							<nav class="productDetailsNav clearFix">
+								
+							</nav>
+						</div>
+					</li>
+					<li class="light">
+						<p class="productDetailsImgs"></p>
+						<div class="lightContent">
+							<p class="contentTitle">
+								<a >昵称</a>
+							</p>
+							<p class="contentText"><%=o.wname%></p>
+							<nav class="productDetailsNav clearFix">
+								
+							</nav>
+						</div>
+					</li>
+					<li class="pay">
+						<p class="productDetailsImgs"></p>
+						<div class="payContent">
+							<p class="contentTitle">
+								<a >电话</a>
+							</p>
+							<p class="contentText"><%=o.telphone%></p>
+							<nav class="productDetailsNav clearFix">
+								
+							</nav>
+						</div>
+					</li>
+					<li class="businessAPI">
+						<p class="productDetailsImgs"></p>
+						<div class="businessAPIContent">
+							<p class="contentTitle">
+								<a>生日</a>
+							</p>
+							<p class="contentText"><%=o.birth%></p>
+							<nav class="productDetailsNav clearFix">
+								
+							</nav>
+						</div>
+					</li>
+					<li class="center">
+						<p class="productDetailsImgs"></p>
+						<div class="centerContent">
+							<p class="contentTitle">
+								<a >年龄</a>
+							</p>
+							<p class="contentText"><%=o.age%></p>
+							<nav class="productDetailsNav clearFix">
+								
+							</nav>
+						</div>
+					</li>
+					<li class="fans">
+						<p class="productDetailsImgs"></p>
+						<div class="fansContent">
+							<p class="contentTitle">
+								<a >城市</a>
+							</p>
+							<p class="contentText"><%=o.city%></p>
+							<nav class="productDetailsNav clearFix">
+								
+							</nav>
+						</div>
+					</li>
+					<% }
+ %>
+				</ul>
+				</ul>
+			</div>
+			
+			<div class="collaborator clearFix">
+				<div class="collaboratorL">
+					
+					<p class="join clearFix">
+						<a href="#">修改密码</a>
+					</p>
+					
+				</div>
+				
+				<div class="collaboratorR" >
+					<p class="join clearFix" style="margin-top: -64px; margin-left: -80px;">
+						<a href="#">修改个人信息</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer class="footer">
+	<div class="footerDiv">
+		<nav class="bottomNav clearFix">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#" class="footerA"></a>
+		</nav>
+		<p class="registerSystem">
+			<span></span>
+			<span></span>
+			<span></span>
+		</p>
+	</div>
+</footer>
+</body>
+</html>

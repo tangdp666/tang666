@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<script type="text/javascript" src="/javascripts/html5shiv.min.js"></script>
+<link rel="stylesheet" href="/stylesheets/header.css">
+<link rel="stylesheet" href="/stylesheets/docment.css">
+<link rel="stylesheet" href="/stylesheets/minLink.css">
+</head>
+<body>
+	<header class="header">
+		<div class="headerDiv clearFix">
+			<h1>
+				<a href="/index1" class="logo"><img class="loge66" src="../images/index/柠檬精.jpg" alt="logo"></a>
+			</h1>
+			<ul class="nav">
+				<li class="navListNormal">
+					<a href="/index1" class="navA">首页</a>
+				</li>
+				<!-- 页面四 -->
+				<li class="navListNormal">
+					<a href="/minLink" class="navA">发布</a>
+				</li>
+				<!-- 页面五 -->
+				<li class="navListNormal">
+					<a href="/docment" class="navA">我的博客</a>
+				</li>
+				<!-- 页面六 -->
+				<li class="navListNormal">
+					<a href="/minService" class="navA">我的</a>
+				</li>
+				
+			</ul>
+			
+			<p class="login">
+				<a >登录</a>
+			</p>
+		</div>
+	</header>
+<main class="DMain">
+	<div class="DWrap clearFix">
+		<div class="DTop">
+			<h2>我的博客</h2>
+		</div>
+		<div class="DContainer clearFix" style="margin-top: 35px;">
+			<div class="DContainerL">
+				<form class="search clearFix">
+					<input type="text" name="">
+					<a class="searchIco"></a>
+				</form>
+				
+			</div>
+			<form action="docment" method="post">
+		<section class="DContainerR">
+	
+		<% for(var o of data){
+			%>
+		<section class="success">
+			<h4><%=o.time%></h4>
+			<button type="button" class="but2">删除</button>
+			<div class="successCase clearFix">
+				
+				<div class="successListLR">
+					<div class="momeyText2">
+						<div class="lineArrow1"></div>
+						<p><%=o.text%></p>
+						<div class="Imgsin1">	
+						</div>
+						<button type="button" class="but3">编辑</button>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<% }
+ %>
+	
+			
+			
+		</section>
+	</form>
+	</div>
+</main>
+<footer class="footer">
+	<div class="footerDiv">
+		<nav class="bottomNav clearFix">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#" class="footerA"></a>
+		</nav>
+		<p class="registerSystem">
+			<span></span>
+			<span></span>
+			<span></span>
+		</p>
+	</div>
+</footer>
+</body>
+</html>

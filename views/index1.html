@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<script type="text/javascript" src="/javascripts/html5shiv.min.js"></script>
+<link rel="stylesheet" href="/stylesheets/header.css">
+<link rel="stylesheet" href="/stylesheets/index.css">
+<link rel="stylesheet" href="/stylesheets/minLink.css">
+<link rel="stylesheet" href="/stylesheets/support.css">
+</head>
+<body>
+<header class="header">
+	<div class="headerDiv clearFix">
+		<h1>
+			<a href="/index1" class="logo"><img class="loge66" src="../images/index/柠檬精.jpg" alt="logo"></a>
+		</h1>
+		<ul class="nav">
+			<li class="navListNormal">
+				<a href="/index1" class="navA">首页</a>
+			</li>
+			<!-- 页面四 -->
+			<li class="navListNormal">
+				<a href="/minLink" class="navA">发布</a>
+			</li>
+			<!-- 页面五 -->
+			<li class="navListNormal">
+				<a href="/docment" class="navA">我的博客</a>
+			</li>
+			<!-- 页面六 -->
+			<li class="navListNormal">
+				<a href="/minService" class="navA">我的</a>
+			</li>
+			<li><form action="">
+				<span><input type="text" class="span1" ></span>
+				<span><button type="button"  class="span2"">搜索</button></span>
+			
+			</form></li>
+			
+		</ul>
+		
+		<p class="login">
+			<a >登录</a>
+		</p>
+	</div>
+</header>
+<div class="banner">
+	<a href="#">
+		<img src="../images/index/韦恩.jpg" alt="" class="bannerImgs">
+	</a>
+</div>
+<div class="functionform">
+	<ul class="functionUl">
+		
+		<li class="functionList" style="margin-left: 115px;">
+			<a href="#">
+				<span class="webImgs"></span>
+				<strong class="listStrong">最新<span class="listSpan">NEWEST</span></strong>
+			</a>
+		</li>
+		<li class="functionList" style="margin-left: 235px;">
+			<a href="#">
+				<span class="businessImgs"></span>
+				<strong class="listStrong">最热<span class="listSpan">HOTTEST</span></strong>
+			</a>
+		</li>
+		
+	</ul>
+</div>
+<form action="index1" method="post">
+	<% for(var o of data){
+		%>
+<main>
+	<div class="wrap">
+		<div class="item">
+			<section class="success">
+				<h1><%=o.wname%></h1>
+			      <p><%=o.time%></p>
+				<div class="successCase clearFix">
+					
+					<div class="successListLR">
+						<div class="momeyText">
+							<div class="lineArrow1"></div>
+							<p style="color:black"><%=o.text%></p>
+							<div class="Imgsin1">
+							</div>
+						</div>
+						
+					</div>
+					<section class="overflowText">
+						<ul class="contentList">
+							
+							<li>
+								
+								<div class="overflowDiVT">
+									<a  class="sinaNews"><%=o.cname%></a>
+									<span class="sinaVIP"></span>  <strong>:<%=o.comment%></strong>
+								</div>
+								<div class="overflowDiv clearFix">
+									<a class="overflowA"><%=o.ctime%></a>
+									
+								</div>
+							</li>
+							
+						</ul>
+					</section>
+				</div>
+			</section>
+			<div  class="div34">
+				
+				<span><input type="text" class="span3"></span>
+				<span><button type="button" class="span4">评论</button></span>
+			</div>
+		</div>
+	</div>
+</main>
+<% }
+ %>
+</form>
+
+
+<footer class="footer">
+	<div class="footerDiv">
+		<nav class="bottomNav clearFix">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#" class="footerA"></a>
+		</nav>
+		<p class="registerSystem">
+			<span></span>
+			<span></span>
+			<span></span>
+		</p>
+	</div>
+</footer>
+</body>
+<script src="/javascripts/index1.js"></script>
+
+</html>

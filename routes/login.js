@@ -26,12 +26,12 @@ router.post("/",function(req, res) {
       }if(results == ""){
         res.json("用户名密码不正确！");
       }else{
-        res.redirect('/login/a')
+        res.redirect('/login/index1')
       }
     })
 
-    router.get('/a',(req,res)=>{
-        res.render('a')
+    router.get('/index1',(req,res)=>{
+        res.render('index1')
     })
 });
 module.exports = router;
